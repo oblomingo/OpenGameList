@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E4737118-718C-40A6-B08B-264E84B3E592}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3557ABDE-E979-444E-AF57-81D6FB326309}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OpenGameListWebApp", "src\OpenGameListWebApp\OpenGameListWebApp.xproj", "{FC7EDD83-D6ED-4CEE-B1C4-CD2ED25E5C00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC7EDD83-D6ED-4CEE-B1C4-CD2ED25E5C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7EDD83-D6ED-4CEE-B1C4-CD2ED25E5C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7EDD83-D6ED-4CEE-B1C4-CD2ED25E5C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7EDD83-D6ED-4CEE-B1C4-CD2ED25E5C00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC7EDD83-D6ED-4CEE-B1C4-CD2ED25E5C00} = {E4737118-718C-40A6-B08B-264E84B3E592}
+	EndGlobalSection
+EndGlobal
